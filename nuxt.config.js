@@ -9,7 +9,7 @@ export default {
   },
 
   head: {
-    title: 'tll-devops-hello-world',
+    title: 'DevOps Hello World',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' }
