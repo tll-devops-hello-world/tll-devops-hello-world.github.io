@@ -1,1 +1,1 @@
-> Personal website v0.1.4.
+> Personal website v1.0.0.
