@@ -3,25 +3,41 @@
     <div>
       <Logo />
       <h1 class="title">
-        tll-devops-hello-world
+        DevOps Hello World
       </h1>
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
+        <div class="flex">
+          <a
+            href="https://sysvale.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="button--sysvale flex-1 mr-20px"
+          >
+            <span class="margin-auto">Sysvale</span>
+          </a>
+          <a
+            href="http://lpi.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="button--lpi flex-1"
+          >
+            <span class="margin-auto">LPI</span>
+          </a>
+        </div>
+
+        <div
+          id="presentation-button-container"
+          class="flex"
         >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+          <a
+            href="https://docs.google.com/presentation/d/e/2PACX-1vSvdgkP2WanhwAowNnA89ElvxQ21F0FjIoSehhiYKVFjCKR-aj5lXUsOKt2Gikysg5rehAXKt08wEet/pub?start=false&loop=false&delayms=3000&slide=id.p"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="button--grey flex-1 ml-0"
+          >
+            <span class="margin-auto">Link Para a Apresentação</span>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -69,5 +85,28 @@ export default {}
 
 .links {
   padding-top: 15px;
+  width: 60%;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  display: flex;
+  flex-grow: 1;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.ml-0 {
+  margin-left: 0;
+}
+
+#presentation-button-container {
+  margin-top: 20px;
 }
 </style>
